@@ -10,28 +10,27 @@
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/meuscript.js"></script>
 
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-            <header class="jumbotron text-center" id="topo">
-                <h1>SENAI/SC Brusque</h1>
-                <p>Alo Ha mundo SENAI</p>
-                <form role="form">
-                    <div class="form-inline">
-                        <div class="input-group input-group-sm">
-                            <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-envelope"></span>
-                            </span>
+        <header class="jumbotron text-center" id="topo">
+            <h1>SENAI/SC Brusque</h1>
+            <p>Alo Ha mundo SENAI</p>
+            <form role="form">
+                <div class="form-inline">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </span>
 
-                            <input type="email"  class="form-control" id="email"  placeholder="seunome@provedor.com.br">                            
-                        </div>
-                        <button type="submit" class="btn btn-success">
-                            Cadastrar
-                        </button>       
+                        <input type="email"  class="form-control" id="email"  placeholder="seunome@provedor.com.br">                            
                     </div>
-                </form>
-            </header>
+                    <button type="submit" class="btn btn-success">
+                        Cadastrar
+                    </button>       
+                </div>
+            </form>
+        </header>
         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -54,7 +53,7 @@
                             <li><a href="#section7">Localização</a></li>
                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                   
+
                                 </ul>
                             </li>
                         </ul>
@@ -98,7 +97,6 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-       
-
+    <script src="js/meuscript.js"></script>   
     </body>
 </html>
