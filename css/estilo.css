@@ -1,4 +1,29 @@
-#topo {
-    background-color: olivedrab;
+#topo{
+    background-color: #115C35;
     color: whitesmoke;
+    height: 300px;
 }
+body {
+    position: relative; 
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: #115C35;
+}
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+#section1 {padding-top:50px;height:500px;color: #FFF; background-color: #398439;}
+#section2 {padding-top:50px;height:500px;color: #FFF; background-color: #3e8f3e;}
+#section3 {padding-top:50px;height:500px;color: #FFF; background-color: #398439;}
+#section4 {padding-top:50px;height:500px;color: #FFF; background-color: #3e8f3e;}
+#section5 {padding-top:50px;height:500px;color: #FFF; background-color: #398439;}
+#section6 {padding-top:50px;height:500px;color: #FFF; background-color: #3e8f3e;}
+#section7 {padding-top:50px;height:500px;color: #FFF; background-color: #398439;}
